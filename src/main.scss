@@ -1,0 +1,77 @@
+@import '../node_modules/bulma/bulma.sass';
+
+$black: #000;
+$grey: #4a4a4a;
+$white: #fff;
+
+.page-body {
+    padding: 3.25em 0em;
+
+    .content {
+        h3 {
+            font-weight: 600;
+        }
+    }
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+
+.deco-button {
+    @extend .button;
+    position: relative;
+    height: 2.25em;
+    padding: 1.1em 1.75em;
+    font-weight: 600;
+    border: 2px $black solid;
+    border-radius: 25px;
+    color: $black;
+    overflow: hidden;
+
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: $black;
+        border-radius: 25px;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 0 50%;
+        transform-origin: 0 50%;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+
+    &:hover {
+        color: $white;
+        border: 2px $black solid;
+
+        &:before {
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+        }
+    }
+}

@@ -1,23 +1,35 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
-  </div>
+    <div id="root">
+        <div class="container">
+            <deco-navbar></deco-navbar>
+            <router-view></router-view>
+        </div>
+        <deco-footer></deco-footer>
+    </div>
 </template>
 
 <script>
+import DecoNavbar from './components/Navbar'
+import DecoFooter from './components/Footer'
 export default {
-  name: 'app'
+    name: 'app',
+    components: {
+        DecoNavbar,
+        DecoFooter
+    }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+
+
+$white: #fff;
+$black: #000;
+
+.has-content-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 </style>
