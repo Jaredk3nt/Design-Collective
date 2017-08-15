@@ -22,9 +22,12 @@ export default {
 
 <style lang="scss">
 
-
 $white: #fff;
 $black: #000;
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
 
 .has-content-centered {
     display: flex;

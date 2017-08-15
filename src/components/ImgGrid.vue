@@ -4,8 +4,10 @@
             <h3>{{title}}</h3>
         </div>
         <div class="columns" v-for="row in y">
-            <div class="column is-one-quarter" v-for="item in chunkList[row - 1]">
-                <div class="team-container">
+            <div class="column" v-bind:class="chunkClass" v-for="item in chunkList[row - 1]">
+
+                <!-- Turn this into a component that you can pass in -->
+                <a :href="item.url" target="blank"><div class="team-container">
                     <div class="team-img">
                         <img :src="item.img">
                     </div>
@@ -13,7 +15,9 @@
                         <div class="name">{{item.name}}</div>
                         <div class="t-title">{{item.title}}</div>
                     </div>
-                </div>
+                </div></a>
+                <!-- // -->
+                
             </div>
         </div>
     </div>
@@ -22,18 +26,13 @@
 <script>
 export default {
     name: 'ImgGrid',
-    props: ['title', 'list'],
-    data: function() {
-        return {
-            chunk: 4
-        }
-    },
+    props: ['title', 'list', 'chunkSize'],
     computed: {
         y : function() {
             var x = this.list.length;
-            if(x > this.chunk) {
-                var extra = x % this.chunk ? 1 : 0;
-                return parseInt(x / this.chunk) + extra;
+            if(x > this.chunkSize) {
+                var extra = x % this.chunkSize ? 1 : 0;
+                return parseInt(x / this.chunkSize) + extra;
             }
             return 1;
         },
@@ -43,10 +42,14 @@ export default {
             chunkList = [],
             j = this.list.length;
 
-            for(i = 0; i < j; i += this.chunk) {
-                chunkList.push(temp.slice(i, i + this.chunk));
+            for(i = 0; i < j; i += this.chunkSize) {
+                chunkList.push(temp.slice(i, i + this.chunkSize));
             }
             return chunkList;
+        },
+        chunkClass : function() {
+            var size = parseInt(12 / this.chunkSize);
+            return "is-" + size;
         }
     }
 }
@@ -60,6 +63,11 @@ export default {
     .team-container {
         position: relative;
         box-sizing: inherit;
+        height: 96.5%;
+
+        &:hover {
+            cursor: pointer;
+        }
 
         &:hover .team-overlay {
             opacity: 1;

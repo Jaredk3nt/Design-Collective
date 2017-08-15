@@ -2,16 +2,21 @@
 <div class="navbar is-transparent">
     <div class="container">
         <div class="navbar-brand">
-            <div class="navbar-item">
+            <a class="navbar-item" href="#/">
                 <img src="../assets/deco-logo-text.jpg" alt="">
+            </a>
+            <div class="navbar-burger burger" data-target="decoNavMenu">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
-        <div class="navbar-menu">
+        <div class="navbar-menu" id="decoNavMenu">
             <div class="navbar-end">
-                <a class="navbar-item is-hoverable" href="#">About</a>
-                <a class="navbar-item" href="#">Community</a>
-                <a class="navbar-item" href="#">Events</a>
-                <a class="navbar-item" href="#">Collection</a>
+                <a class="navbar-item" href="#/About">About</a>
+                <a class="navbar-item" href="#/Community">Community</a>
+                <a class="navbar-item" href="#/Events">Events</a>
+                <a class="navbar-item" href="#/Collection">Collection</a>
             </div>
         </div>
     </div>
@@ -24,7 +29,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
 </style>

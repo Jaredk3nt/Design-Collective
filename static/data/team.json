@@ -1,0 +1,7 @@
+{
+    "data": [
+        { "name": "Jared Jones", "title": "President", "img": "./static/jared.jpg" },
+        { "name": "Kexin Yang", "title": "VP of Finance", "img": "./static/kexin.jpg" },
+        { "name": "Matt Wu", "title": "Technology Team Lead", "img": "./static/matt.jpg"}
+    ]
+}

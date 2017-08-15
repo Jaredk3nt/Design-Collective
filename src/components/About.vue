@@ -11,24 +11,22 @@
             </div>
         </div>
         <br>
-        <img-grid title="Team" :list="team"></img-grid>
-        <img-grid title="Sponsors" :list="sponsors"></img-grid>
-        <img-grid title="Partners" :list="partners"></img-grid>
+        <img-grid title="Team" :list="team" chunkSize="4"></img-grid>
+        <img-grid title="Sponsors" :list="sponsors" chunkSize="4"></img-grid>
+        <img-grid title="Partners" :list="partners" chunkSize="4"></img-grid>
     </div>
 </div>
 </template>
 
 <script>
 import ImgGrid from './ImgGrid'
+const team = require('../../static/data/team.json');
 
 export default {
     name: 'About',
     data: function() {
         return {
-            team: [
-                { name: 'Jared Jones', title: 'President', img: './static/jared.jpg' },
-                { name: 'Kexin Yang', title: 'VP of Finance', img: './static/kexin.jpg' },
-            ],
+            team: team.data,
             sponsors: [
 
             ],
