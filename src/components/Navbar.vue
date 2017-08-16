@@ -1,5 +1,5 @@
 <template>
-<div class="navbar is-transparent">
+<div class="navbar">
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="#/">

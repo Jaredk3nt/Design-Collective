@@ -1,10 +1,11 @@
 <template>
 <div class="columns is-centered page-body">
     <div class="column is-three-quarters">
+        <!-- <img src="../../static/banner.jpg" alt="" style="margin-bottom: 1em;"> -->
         <div class="content">
             <h3>Working Together to Build Community</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim metus quis enim bibendum, non aliquet nunc blandit. Morbi elementum cursus tempor. Morbi nisl est, sagittis at ipsum eu, iaculis dapibus velit. Integer aliquam tellus vel libero mollis, eget ultrices lacus venenatis. Quisque ut rutrum sapien. Aenean egestas risus sed fringilla sodales. Aenean vitae lacus justo. Suspendisse eu laoreet lacus. Vestibulum vulputate eros vitae risus pellentesque, ac ultricies erat tincidunt. Praesent eu nibh egestas turpis blandit mattis nec ornare ante. Etiam eu massa quis ipsum mattis varius vitae vitae tortor. Curabitur fringilla lacus sed placerat cursus. Vestibulum maximus sapien metus, non pretium felis suscipit et. Quisque porttitor nulla eget enim porttitor consequat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim metus quis enim bibendum, non aliquet nunc blandit. Morbi elementum cursus tempor. Morbi nisl est, sagittis at ipsum eu, iaculis dapibus velit. Integer aliquam tellus vel libero mollis, eget ultrices lacus venenatis. Quisque ut rutrum sapien. Aenean egestas risus sed fringilla sodales. Aenean vitae lacus justo.
             </p>
             <div class="deco-button">
                 Contact Us
