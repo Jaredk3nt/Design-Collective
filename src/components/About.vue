@@ -7,9 +7,7 @@
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim metus quis enim bibendum, non aliquet nunc blandit. Morbi elementum cursus tempor. Morbi nisl est, sagittis at ipsum eu, iaculis dapibus velit. Integer aliquam tellus vel libero mollis, eget ultrices lacus venenatis. Quisque ut rutrum sapien. Aenean egestas risus sed fringilla sodales. Aenean vitae lacus justo.
             </p>
-            <div class="deco-button">
-                Contact Us
-            </div>
+            <div class="deco-button">Contact Us</div>
         </div>
         <br>
         <img-grid title="Team" :list="team" chunkSize="4"></img-grid>

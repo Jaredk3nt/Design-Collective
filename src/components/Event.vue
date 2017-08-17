@@ -55,6 +55,12 @@ $black: #000;
             padding: .75em 0em;
             font-size: 1.05rem;
         }
+
+        .buttons {
+            .deco-button {
+                margin-right: .75em;
+            }
+        }
     }
 
 }

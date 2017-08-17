@@ -1,7 +1,9 @@
 {
     "data": [
-        { "name": "Jared Jones", "title": "President", "img": "./static/jared.jpg" },
-        { "name": "Kexin Yang", "title": "VP of Finance", "img": "./static/kexin.jpg" },
-        { "name": "Matt Wu", "title": "Technology Team Lead", "img": "./static/matt.jpg"}
+        { "name": "Jared Jones", "title": "President", "img": "./static/jared.jpg", "url": "http://jaredjones.me" },
+        { "name": "Kexin Yang", "title": "VP of Finance", "img": "./static/kexin.jpg", "url": "" },
+        { "name": "Megan Pho", "title": "VP of Marketing", "img": "./static/megan.jpg", "url": "http://www.meganpho.com" },
+        { "name": "Amy Cho", "title": "Social Media Director", "img": "./static/amy.jpg", "url": "http://amywcho.com/" },
+        { "name": "Matt Wu", "title": "Technology Team Lead", "img": "./static/matt.jpg", "url": "" }
     ]
 }

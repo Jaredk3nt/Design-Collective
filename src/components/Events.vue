@@ -4,15 +4,14 @@
             <div class="content">
                 <h2>Fall 2017 Calendar of Events</h2>
             </div>
-            <event :event="events[0]"></event>
-            <event :event="events[0]"></event>
+            <calendar :calendar="events"></calendar>
         </div>
     </div>
 
 </template>
 
 <script>
-import Event from './Event'
+import Calendar from './Calendar'
 const calendar = require('../../static/data/calendar.json');
 
 export default {
@@ -23,7 +22,7 @@ export default {
         }
     },
     components: {
-        Event
+        Calendar
     }
 }
 </script>
