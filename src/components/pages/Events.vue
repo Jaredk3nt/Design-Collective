@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import Calendar from './Calendar'
-const calendar = require('../../static/data/calendar.json');
+import Calendar from '../Calendar'
+const calendar = require('../../../static/data/calendar.json');
 
 export default {
     name: 'Events',

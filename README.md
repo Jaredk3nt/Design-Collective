@@ -4,7 +4,7 @@ The ATX Design Collective website, this site serves as a information hub of loca
 
 ## Documentation
 ### Build Setup
-Getting started you will need to install [Node.js](https://nodejs.org) and [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+Getting started you will need to install [npm & node.js](http://blog.teamtreehouse.com/install-node-js-npm-mac) and [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 > Check the 'Technologies' section for more info on what Node.js & Git are and how we are using them in this project
 
 After you have Node.js and Git, you can `git clone` this repository and then run `npm install` and `npm run dev` to get started.

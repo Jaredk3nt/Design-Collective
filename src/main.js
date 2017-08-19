@@ -5,9 +5,9 @@ import DecoNavbar from './components/Navbar'
 import DecoFooter from './components/Footer'
 import ImgGrid from './components/ImgGrid'
 
-import About from './components/About'
-import Community from './components/Community'
-import Events from './components/Events'
+import About from './components/pages/About'
+import Community from './components/pages/Community'
+import Events from './components/pages/Events'
 
 import router from './router'
 

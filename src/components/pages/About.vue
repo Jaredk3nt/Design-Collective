@@ -18,8 +18,8 @@
 </template>
 
 <script>
-import ImgGrid from './ImgGrid'
-const team = require('../../static/data/team.json');
+import ImgGrid from '../ImgGrid'
+const team = require('../../../static/data/team.json');
 
 export default {
     name: 'About',

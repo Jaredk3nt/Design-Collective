@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import ImgGrid from './ImgGrid'
-const orgs = require('../../static/data/orgs.json');
+import ImgGrid from '../ImgGrid'
+const orgs = require('../../../static/data/orgs.json');
 
 export default {
     name: 'Community',
