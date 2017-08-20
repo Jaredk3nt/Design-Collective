@@ -1,6 +1,6 @@
 <template lang="html">
-    <div class=" columns is-centered page-body">
-        <div class="column is-three-quarters">
+    <div class="page-container">
+        <div class="page-body">
             <img-grid title="Design Orgs at the University of Texas" :list="orgList" chunkSize="3"></img-grid>
             <div class="content">
                 <h4>Are we missing a UT organization?</h4>

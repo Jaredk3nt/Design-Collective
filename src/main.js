@@ -4,10 +4,12 @@ import App from './App'
 import DecoNavbar from './components/Navbar'
 import DecoFooter from './components/Footer'
 import ImgGrid from './components/ImgGrid'
+import ContactForm from './components/ContactForm'
 
 import About from './components/pages/About'
 import Community from './components/pages/Community'
 import Events from './components/pages/Events'
+import Collection from './components/pages/Collection'
 
 import router from './router'
 
@@ -20,5 +22,5 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App, DecoNavbar, DecoFooter, About, Community, Events }
+  components: { App, DecoNavbar, DecoFooter, ImgGrid, ContactForm, About, Community, Events, Collection }
 })

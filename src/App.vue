@@ -1,7 +1,8 @@
 <template>
     <div id="root">
+        <deco-navbar></deco-navbar>
+        <!-- <contact-form></contact-form> -->
         <div class="container">
-            <deco-navbar></deco-navbar>
             <router-view></router-view>
         </div>
         <deco-footer></deco-footer>
@@ -11,11 +12,14 @@
 <script>
 import DecoNavbar from './components/Navbar'
 import DecoFooter from './components/Footer'
+import ContactForm from './components/ContactForm'
+
 export default {
     name: 'app',
     components: {
         DecoNavbar,
-        DecoFooter
+        DecoFooter,
+        ContactForm
     }
 }
 </script>
