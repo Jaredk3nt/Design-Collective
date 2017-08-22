@@ -1,12 +1,16 @@
 <template lang="html">
 <div class="page-container-home">
     <div class="page-body">
-        <div class="content">
-            <h3>Working to promote the design community at the University of Texas at Austin</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim metus quis enim bibendum, non aliquet nunc blandit. Morbi elementum cursus tempor. Morbi nisl est, sagittis at ipsum eu, iaculis dapibus velit. Integer aliquam tellus vel libero mollis, eget ultrices lacus venenatis. Quisque ut rutrum sapien. Aenean egestas risus sed fringilla sodales. Aenean vitae lacus justo.
-            </p>
+        <div class="logo-container">
+            <img src="../../assets/deco-logo-text.png" class="logo">
+            <div class="content">
+                <h3>Working to promote the design community at the University of Texas at Austin</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim metus quis enim bibendum, non aliquet nunc blandit. Morbi elementum cursus tempor. Morbi nisl est, sagittis at ipsum eu, iaculis dapibus velit. Integer aliquam tellus vel libero mollis, eget ultrices lacus venenatis. Quisque ut rutrum sapien. Aenean egestas risus sed fringilla sodales. Aenean vitae lacus justo.
+                </p>
+            </div>
         </div>
+
         <div class="image-display-container">
             <img-display
                 side="left"
@@ -58,6 +62,14 @@ export default {
 </script>
 
 <style lang="scss">
+.logo-container {
+    //text-align: center;
+    .logo {
+        width: 80%;
+        margin-bottom: 2em;
+    }
+}
+
 
 .image-display-container {
     padding-top: 3.25em;
