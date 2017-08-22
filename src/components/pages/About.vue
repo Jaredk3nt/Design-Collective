@@ -1,6 +1,6 @@
 <template>
-<div class="columns is-centered page-body">
-    <div class="column is-three-quarters">
+<div class="page-container">
+    <div class="page-body">
         <!-- <img src="../../static/banner.jpg" alt="" style="margin-bottom: 1em;"> -->
         <div class="content">
             <h3>Working Together to Build Community</h3>
@@ -18,8 +18,8 @@
 </template>
 
 <script>
-import ImgGrid from './ImgGrid'
-const team = require('../../static/data/team.json');
+import ImgGrid from '../ImgGrid'
+const team = require('../../../static/data/team.json');
 
 export default {
     name: 'About',

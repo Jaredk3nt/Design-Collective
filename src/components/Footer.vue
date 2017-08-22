@@ -6,6 +6,10 @@
                 <div class="is-inline h-list-item"><a href="https://www.facebook.com" target="blank">Facebook</a></div>
                 <div class="is-inline h-list-item"><a href="https://www.instagram.com" target="blank">Instagram</a></div>
             </div>
+            <hr>
+            <div class="content has-text-centered">
+                <p>Design Collective 2017</p>
+            </div>
         </div>
     </footer>
 </template>

@@ -1,5 +1,5 @@
 <template lang="html">
-    <div class="img-grid">
+    <div class="img-grid" v-if="list.length > 0">
         <div class="content">
             <h3>{{title}}</h3>
         </div>
@@ -17,7 +17,7 @@
                     </div>
                 </div></a>
                 <!-- // -->
-                
+
             </div>
         </div>
     </div>

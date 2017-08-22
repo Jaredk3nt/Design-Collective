@@ -3,7 +3,7 @@
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="#/">
-                <img src="../assets/deco-logo-text.jpg" alt="">
+                <img src="../assets/deco-logo-text.png" alt="">
             </a>
             <div class="navbar-burger burger" data-target="decoNavMenu">
                 <span></span>
