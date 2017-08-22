@@ -1,5 +1,8 @@
 <template lang="html">
-<div class="page-body courses">
+<div class="page-container">
+    <div class="page-body">
+
+    </div>
 
 </div>
 </template>
@@ -10,7 +13,4 @@ export default {
 </script>
 
 <style lang="scss">
-.courses {
-    width: 75%;
-}
 </style>

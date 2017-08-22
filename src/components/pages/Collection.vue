@@ -5,12 +5,13 @@
             <h3>The Design Collection</h3>
         </div>
         <div class="columns is-multiline design-collection">
-            <div class="column card-blue is-half">
+
+            <router-link class="column card-blue is-half" to="/Collection/CourseList">
                 <div class="card-title-big">
                     UT Design Course-list
                 </div>
-            </div>
-            <div class="column card-pink is-half">
+            </router-link>
+            <div class="column card-pink is-half" v-on:click="navigate('https://integrateddesign.utexas.edu/')">
                 <div class="card-title-big">
                     Center For Integrated Design
                 </div>
@@ -69,7 +70,14 @@
 </template>
 
 <script>
+
 export default {
+    name: 'Collection',
+    methods: {
+        navigate: function(url) {
+            window.open(url);
+        }
+    }
 }
 </script>
 

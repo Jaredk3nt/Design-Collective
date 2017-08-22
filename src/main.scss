@@ -44,6 +44,13 @@ $white: #fff;
     }
 }
 
+.page-container-home {
+    @extend .page-container;
+    .page-body {
+        width: 60%;
+    }
+}
+
 
 .flex-center {
     display: flex;
