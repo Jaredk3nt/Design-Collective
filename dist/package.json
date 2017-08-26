@@ -1,0 +1,10 @@
+{
+    "name": "design-collective",
+    "version": "1.0.0",
+    "description": "Website for UT Austin's Design Collective",
+    "author": "Jared Jones",
+    "private": true,
+    "scripts": {
+        "postinstall": "npm install express"
+    }
+}

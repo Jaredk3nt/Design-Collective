@@ -2,7 +2,7 @@
 <div class="page-container-home">
     <div class="page-body">
         <div class="logo-container">
-            <img src="../../assets/deco-logo-text.png" class="logo">
+            <!-- <img src="../../assets/deco-logo-text.png" class="logo"> -->
             <div class="content">
                 <h3>Working to promote the design community at the University of Texas at Austin</h3>
                 <p>

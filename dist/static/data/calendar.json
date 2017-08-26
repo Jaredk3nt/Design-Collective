@@ -1,0 +1,26 @@
+{
+    "data": {
+        "August": [
+            {
+                "time": "Wednesday 8 - 9 pm",
+                "day": "26",
+                "title": "Test Event",
+                "description": "This is a test event to help me style the event component. Learn more at the github for this website.",
+                "location": "CLA 2.108",
+                "url": ""
+            },
+            {
+                "time": "Wednesday 8 - 9 pm",
+                "day": "26",
+                "title": "Test Event",
+                "description": "This is a test event to help me style the event component. Learn more at the github for this website.",
+                "location": "CLA 2.108",
+                "url": ""
+            }
+        ],
+        "September": [],
+        "October": [],
+        "November": [],
+        "December": []
+    }
+}
