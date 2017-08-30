@@ -2,7 +2,9 @@
     "data": [
         { "name": "Jared Jones", "title": "President", "img": "./static/jared.jpg", "url": "http://jaredjones.me" },
         { "name": "Kexin Yang", "title": "VP of Finance", "img": "./static/kexin.jpg", "url": "" },
+        { "name": "Sylvia Yang", "title": "VP of Events", "img": "./static/sylvia.jpg", "url": "http://www.sylviayang.me" },
         { "name": "Megan Pho", "title": "VP of Marketing", "img": "./static/megan.jpg", "url": "http://www.meganpho.com" },
+        { "name":"Efren Martinez", "title": "Creative Team Director", "img": "./static/efren.jpg", "url":"http://www.efrenmtz.com" },
         { "name": "Amy Cho", "title": "Social Media Director", "img": "./static/amy.jpg", "url": "http://amywcho.com/" },
         { "name": "Matt Wu", "title": "Technology Team Lead", "img": "./static/matt.jpg", "url": "" },
         { "name": "Elisabeth Dubus", "title": "Events Team Member", "img": "./static/elisabeth.jpg", "url": ""}
