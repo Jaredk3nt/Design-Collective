@@ -2,9 +2,9 @@
 <div class="navbar">
     <div class="container">
         <div class="navbar-brand">
-            <a class="navbar-item" href="/">
+            <router-link class="navbar-item" to="/">
                 <img src="../assets/deco-logo-text.png" alt="">
-            </a>
+            </router-link>
             <div class="navbar-burger burger" data-target="decoNavMenu">
                 <span></span>
                 <span></span>
@@ -13,10 +13,10 @@
         </div>
         <div class="navbar-menu" id="decoNavMenu">
             <div class="navbar-end">
-                <a class="navbar-item" href="/About">About</a>
-                <a class="navbar-item" href="/Community">Community</a>
-                <a class="navbar-item" href="/Events">Events</a>
-                <a class="navbar-item" href="/Collection">Collection</a>
+                <router-link class="navbar-item" to="/About">About</router-link>
+                <router-link class="navbar-item" to="/Community">Community</router-link>
+                <router-link class="navbar-item" to="/Events">Events</router-link>
+                <router-link class="navbar-item" to="/Collection">Collection</router-link>
             </div>
         </div>
     </div>
