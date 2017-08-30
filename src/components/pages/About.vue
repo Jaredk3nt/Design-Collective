@@ -3,9 +3,9 @@
     <div class="page-body">
         <!-- <img src="../../static/banner.jpg" alt="" style="margin-bottom: 1em;"> -->
         <div class="content">
-            <h3>Working Together to Build Community</h3>
+            <h3>A Team of Passionate Students</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim metus quis enim bibendum, non aliquet nunc blandit. Morbi elementum cursus tempor. Morbi nisl est, sagittis at ipsum eu, iaculis dapibus velit. Integer aliquam tellus vel libero mollis, eget ultrices lacus venenatis. Quisque ut rutrum sapien. Aenean egestas risus sed fringilla sodales. Aenean vitae lacus justo.
+                Design Collective is run tirelessly by a group of interdisciplinary UT students who all share a passion for DECO's primary focus: sharing design with others.
             </p>
             <div class="deco-button">Contact Us</div>
         </div>

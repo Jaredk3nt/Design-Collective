@@ -6,7 +6,7 @@
             <div class="content">
                 <h3>Working to promote the design community at the University of Texas at Austin</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim metus quis enim bibendum, non aliquet nunc blandit. Morbi elementum cursus tempor. Morbi nisl est, sagittis at ipsum eu, iaculis dapibus velit. Integer aliquam tellus vel libero mollis, eget ultrices lacus venenatis. Quisque ut rutrum sapien. Aenean egestas risus sed fringilla sodales. Aenean vitae lacus justo.
+                    The field of design is exploding, more and more people are finding out that design is more than just the way things look, its a way of thinking about problems. Design Collective is here to help grow an interactive and supportive student community for anyone interested in design, no matter their major or ambitions.
                 </p>
             </div>
         </div>
@@ -15,36 +15,40 @@
             <img-display
                 side="left"
                 title="A Community of Designers"
-                description="Some description goes here to explain the purpose of the image display. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim metus quis enim bibendum, non aliquet nunc blandit. Morbi elementum cursus tempor. Morbi nisl est, sagittis at ipsum eu, iaculis dapibus velit. Integer aliquam tellus vel libero mollis, eget ultrices lacus venenatis. libero mollis, eget ultrices lacus venenatis. "
+                description="Design Collective provides learning experiences, mentorship, and career growth opportunities. We have a facebook group for students of UT so that they can interact with one another and reach out to student designers for support and mentorship."
                 image="../../../static/community.jpg"
-                buttonText="Join Us">
+                buttonText="Join Us"
+                url="/About">
             </img-display>
         </div>
         <div class="image-display-container">
             <img-display
                 side="right"
                 title="Design Events"
-                description="Some description goes here to explain the purpose of the image display. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim metus quis enim bibendum, non aliquet nunc blandit. Morbi elementum cursus tempor. Morbi nisl est, sagittis at ipsum eu, iaculis dapibus velit. Integer aliquam tellus vel libero mollis, eget ultrices lacus venenatis. "
+                description="Design Collective holds events throughout the year hosting local Austin designers and innovators to help inspire and teach the UT student body."
                 image="../../../static/events.jpg"
-                buttonText="Our Events">
+                buttonText="Our Events"
+                url="/Events">
             </img-display>
         </div>
         <div class="image-display-container">
             <img-display
                 side="left"
                 title="The Design Collection"
-                description="Some description goes here to explain the purpose of the image display. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim metus quis enim bibendum, non aliquet nunc blandit. Morbi elementum cursus tempor. Morbi nisl est."
+                description="Design Collective is working to create a comprehensive guide to many design fields that will give students resources on how to get started learning, and help them find classes that will fit their interests."
                 image="../../../static/collection.jpg"
-                buttonText="Learn More">
+                buttonText="Learn More"
+                url="/Collection">
             </img-display>
         </div>
         <div class="image-display-container">
             <img-display
                 side="right"
                 title="DECO Studio"
-                description="Some description goes here to explain the purpose of the image display. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim metus quis enim bibendum, non aliquet nunc blandit. Morbi elementum cursus tempor. Morbi nisl est, sagittis at ipsum eu, iaculis dapibus velit. Integer aliquam tellus vel libero mollis, eget ultrices lacus venenatis. "
+                description="DECO Studio is a unique portion of Design Collective that takes on work from UT organizations and local non-profits. This allows students to obtain real world experience and expand their portfolios, while giving back to the Austin community."
                 image="../../../static/jared.jpg"
-                buttonText="Contact">
+                buttonText="Contact"
+                url="">
             </img-display>
         </div>
     </div>

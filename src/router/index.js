@@ -12,6 +12,7 @@ import Courses from '@/components/pages/collection/Courses'
 Vue.use(Router)
 
 export default new Router({
+    mode: 'history',
     routes: [
         { path: '/', name: 'Home', component: Home },
         { path: '/About', name: 'About', component: About },
@@ -24,5 +25,8 @@ export default new Router({
             // ]
         },
         { path: '/Collection/CourseList', component: Courses }
-    ]
+    ],
+    scrollBehavior (to, from, savedPosition) {
+        return { x: 0, y: 0 }
+    }
 })
