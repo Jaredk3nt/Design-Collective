@@ -46,7 +46,7 @@
                 side="right"
                 title="DECO Studio"
                 description="DECO Studio is a unique portion of Design Collective that takes on work from UT organizations and local non-profits. This allows students to obtain real world experience and expand their portfolios, while giving back to the Austin community."
-                image="../../../static/jared.jpg"
+                image="../../../static/studio.jpg"
                 buttonText="Contact"
                 url="">
             </img-display>
