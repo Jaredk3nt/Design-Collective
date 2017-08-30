@@ -8,12 +8,14 @@
             <div class="content">
                 <h3>{{title}}</h3>
                 <p>{{description}}</p>
-                <div>
-                    <router-link class="deco-button" :to="url" v-if="buttonText.length > 0">
+                <div v-if="buttonText.length > 0">
+                    <a :href="url" class="deco-button" v-if="link">
+                        {{buttonText}}
+                    </a>
+                    <router-link class="deco-button" :to="url" v-if="!link">
                         {{buttonText}}
                     </router-link>
                 </div>
-
             </div>
         </div>
     </div>
@@ -22,8 +24,11 @@
             <div class="content">
                 <h3>{{title}}</h3>
                 <p>{{description}}</p>
-                <div>
-                    <router-link class="deco-button" :to="url" v-if="buttonText.length > 0">
+                <div v-if="buttonText.length > 0">
+                    <a :href="url" class="deco-button" v-if="link">
+                        {{buttonText}}
+                    </a>
+                    <router-link class="deco-button" :to="url" v-if="!link">
                         {{buttonText}}
                     </router-link>
                 </div>
@@ -40,7 +45,7 @@
 <script>
 export default {
     name: "ImgDisplay",
-    props: ["side", "title", "description", "image", "buttonText", "url"]
+    props: ["side", "title", "description", "image", "buttonText", "url", "link"]
 }
 </script>
 

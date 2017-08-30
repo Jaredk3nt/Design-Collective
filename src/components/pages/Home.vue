@@ -18,7 +18,8 @@
                 description="Design Collective provides learning experiences, mentorship, and career growth opportunities. We have a facebook group for students of UT so that they can interact with one another and reach out to student designers for support and mentorship."
                 image="../../../static/community.jpg"
                 buttonText="Join Us"
-                url="/About">
+                url="/About"
+                :link="false">
             </img-display>
         </div>
         <div class="image-display-container">
@@ -28,7 +29,8 @@
                 description="Design Collective holds events throughout the year hosting local Austin designers and innovators to help inspire and teach the UT student body."
                 image="../../../static/events.jpg"
                 buttonText="Our Events"
-                url="/Events">
+                url="/Events"
+                :link="false">
             </img-display>
         </div>
         <div class="image-display-container">
@@ -38,7 +40,8 @@
                 description="Design Collective is working to create a comprehensive guide to many design fields that will give students resources on how to get started learning, and help them find classes that will fit their interests."
                 image="../../../static/collection.jpg"
                 buttonText="Learn More"
-                url="/Collection">
+                url="/Collection"
+                :link="false">
             </img-display>
         </div>
         <div class="image-display-container">
@@ -48,7 +51,8 @@
                 description="DECO Studio is a unique portion of Design Collective that takes on work from UT organizations and local non-profits. This allows students to obtain real world experience and expand their portfolios, while giving back to the Austin community."
                 image="../../../static/studio.jpg"
                 buttonText="Contact"
-                url="">
+                url="https://docs.google.com/forms/d/e/1FAIpQLSdJYEtmbpPdTlTeV3kO5Y1VAQYNCEUP2yQlZnbooRaw-ty2ug/viewform"
+                :link="true">
             </img-display>
         </div>
     </div>

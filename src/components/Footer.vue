@@ -2,9 +2,9 @@
     <footer class="footer">
         <div class="container">
             <div class="content has-text-centered">
-                <div class="is-inline h-list-item"><a href="https://www.twitter.com" target="blank">Twitter</a></div>
-                <div class="is-inline h-list-item"><a href="https://www.facebook.com" target="blank">Facebook</a></div>
-                <div class="is-inline h-list-item"><a href="https://www.instagram.com" target="blank">Instagram</a></div>
+                <div class="is-inline h-list-item"><a href="https://www.twitter.com/dsgncoll" target="blank">Twitter</a></div>
+                <div class="is-inline h-list-item"><a href="https://www.facebook.com/dsgncoll" target="blank">Facebook</a></div>
+                <div class="is-inline h-list-item"><a href="https://www.instagram.com/dsgncoll" target="blank">Instagram</a></div>
             </div>
             <hr>
             <div class="content has-text-centered">

@@ -7,7 +7,7 @@
             <p>
                 Design Collective is run tirelessly by a group of interdisciplinary UT students who all share a passion for DECO's primary focus: sharing design with others.
             </p>
-            <div class="deco-button">Contact Us</div>
+            <a href="https://facebook.com/dsgncoll" target="_blank" class="deco-button">Contact Us</a>
         </div>
         <br>
         <img-grid title="Team" :list="team" chunkSize="4"></img-grid>
