@@ -5,9 +5,9 @@
             <div class="content">
                 <h4>Are we missing a UT organization?</h4>
             </div>
-            <div class="deco-button">
+            <a href="https://goo.gl/forms/HWWf14t2MMl2xpMm1" target="_blank" class="deco-button">
                 Submit an Org
-            </div>
+            </a>
         </div>
     </div>
 </template>
