@@ -64,6 +64,7 @@ export default {
         position: relative;
         box-sizing: inherit;
         height: 96.5%;
+        //box-sizing: border-box;
 
         &:hover {
             cursor: pointer;
@@ -86,10 +87,12 @@ export default {
             background-color: rgba(0, 0, 0, .5);
             color: #fff;
             text-align: center;
+            //box-sizing: border-box;
 
             @media screen and (max-width: 1200px) {
         		background-color: rgba(0, 0, 0, .25);
                 opacity: 1;
+                height: 98.5%;
         	}
         }
 

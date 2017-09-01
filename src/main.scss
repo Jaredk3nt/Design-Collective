@@ -31,6 +31,10 @@ $white: #fff;
         padding: 6.25em 0em 3.25em;
         width: 75%;
 
+        @media screen and (max-width: 1200px) {
+            width: 80%;
+        }
+
         .content {
             h3 {
                 font-weight: 600;
@@ -48,6 +52,10 @@ $white: #fff;
     @extend .page-container;
     .page-body {
         width: 60%;
+
+        @media screen and (max-width: 1200px) {
+            width: 80%;
+        }
     }
 }
 
@@ -73,6 +81,10 @@ $white: #fff;
     border-radius: 25px;
     color: $black;
     overflow: hidden;
+
+    @media screen and (max-width: 1200px) {
+        margin: .25em 0em;
+    }
 
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);

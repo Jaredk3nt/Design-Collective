@@ -29,6 +29,10 @@ $black: #000;
     padding: 0em 5em;
     margin: 2em 0em;
 
+    @media screen and (max-width: 1200px) {
+        padding: 0em;
+    }
+
     .day-left {
         position: absolute;
         font-size: 2rem;
@@ -39,6 +43,11 @@ $black: #000;
         margin-left: 4em;
         border-left: 3px $black solid;
         padding: .5em 0em .5em 2em;
+
+        @media screen and (max-width: 1200px) {
+            margin-left: 2.5em;
+            padding: .5em 0em .5em 1.5em;
+        }
 
         .event-title {
             font-size: 1.5rem;

@@ -67,6 +67,10 @@ export default {
             img {
                 width: 100%;
             }
+
+            @media screen and (max-width: 1200px) {
+        		display: none;
+        	}
         }
         .content-container {
             flex: 1;
@@ -74,6 +78,11 @@ export default {
             box-sizing: border-box;
             vertical-align: top;
             padding-left: 1.2rem;
+
+            @media screen and (max-width: 1200px) {
+        		padding-left: 0rem;
+                width: 90%;
+        	}
 
             .content {
                 display: flex;
