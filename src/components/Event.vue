@@ -9,7 +9,7 @@
             <div class="event-description"> {{event.description}} </div>
             <div class="buttons">
                 <a class="deco-button"> {{event.location}} </a>
-                <a class="deco-button" :href="event.url" v-if="event.url.length < 0"> Event Page </a>
+                <a class="deco-button" :href="event.url" v-if="event.url.length > 0"> Event Page </a>
             </div>
         </div>
     </div>

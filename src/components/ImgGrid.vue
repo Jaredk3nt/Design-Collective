@@ -85,6 +85,12 @@ export default {
             transition: .3s ease;
             background-color: rgba(0, 0, 0, .5);
             color: #fff;
+            text-align: center;
+
+            @media screen and (max-width: 1200px) {
+        		background-color: rgba(0, 0, 0, .25);
+                opacity: 1;
+        	}
         }
 
         .t-title {
