@@ -14,10 +14,10 @@
 
         <div class="navbar-menu" id="decoNavMenu" :class="{ 'is-active': activeNav }">
             <div class="navbar-end">
-                <span @click="activate()"><router-link class="navbar-item" to="/About">About</router-link></span>
-                <span @click="activate()"><router-link class="navbar-item" to="/Community" @click="activate()">Community</router-link></span>
-                <span @click="activate()"><router-link class="navbar-item" to="/Events" @click="activate()">Events</router-link></span>
-                <span @click="activate()"><router-link class="navbar-item" to="/Collection" @click="activate()">Collection</router-link></span>
+                <div @click="activate()" class="navbar-item is-hoverable"><router-link to="/About">About</router-link></div>
+                <div @click="activate()" class="navbar-item"><router-link to="/Community" @click="activate()">Community</router-link></div>
+                <div @click="activate()" class="navbar-item"><router-link to="/Events">Events</router-link></div>
+                <div @click="activate()" class="navbar-item"><router-link to="/Collection">Collection</router-link></div>
             </div>
         </div>
     </div>
@@ -40,6 +40,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 </style>

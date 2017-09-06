@@ -13,6 +13,18 @@ body {
     top: 0;
     left: 0;
     right: 0;
+
+    .navbar-item {
+
+        &:hover {
+            background: #fafafa;
+        }
+
+        a {
+            color: #000;
+        }
+
+    }
 }
 
 @import '../node_modules/bulma/bulma.sass';
