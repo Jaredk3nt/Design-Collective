@@ -8,7 +8,15 @@
                 "description": "Come meet DECO's leadership and learn more about our upcoming semester!",
                 "location": "Gregory Plaza",
                 "url": ""
-            }
+            },
+		{
+			"time": "Tuesday 4:00 pm - 5:00 pm",
+			"day": "12",
+			"title": "DECO Info Session",
+			"description": "Join us to learn more about Design Collective and see how you can get involved!",
+			"location": "SAC 1.106",
+			"url": "https://www.facebook.com/events/864341850398522/?acontext=%7B%22ref%22%3A%224%22%2C%22feed_story_type%22%3A%22308%22%2C%22action_history%22%3A%22null%22%7D"
+		}
         ],
         "October": [],
         "November": [],
